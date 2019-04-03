@@ -16,7 +16,7 @@
                     data:(cont),
                     contentType:'application/x-www-form-urlencoded',//给后端的传输格式,
                     success:function(data){
-                        console.log(data)
+                        alert(data)
 //                        var str = data.username + data.age + data.job;
 //                        $("#result").html(str);
                     }
